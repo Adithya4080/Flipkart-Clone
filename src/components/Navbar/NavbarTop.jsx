@@ -14,7 +14,7 @@ function NavbarTop() {
         <header>
             <div className='wrapper'>
             <div className="flex justifu-center items-center gap-10 my-3 bg-white-A700 w-full">                
-                <div className='w-40'>
+                <div className='w-36'>
                     <Link to = '/'>
                         <img src={Logo} alt='Logo' className='w-full' />
                     </Link>
@@ -25,35 +25,33 @@ function NavbarTop() {
                         Menu
                     </p>
                 </div>
-                <div>
-                    <div className="flex justify-center items-center">
-                        <div className="flex gap-4 p-2 border-black-900 border border-solid bg-white-A700 rounded-[20px]">
-                            <SelectBox
-                                shape="square"
-                                indicator={<img src="images/img_arrowdown.svg" alt="arrow_down" className="ml=2"/>}
-                                name="allcategories"
-                                placeholder=" All Categories"
-                                options={dropDownOptions}
-                                className=" text-black-900 font-medium ml-2 border-r border-solid border-gray-300 whitespace-nowrap"
-                            />
-                            <p className="flex justify-center items-center !text-gray-400 whitespace-nowrap pr-28">
-                                Search Product,Brands and more...
-                            </p>
-                            <img src="images/img_search.svg" alt="search_one" className="mr-2" />
-                        </div>
+                <div className="flex justify-center items-center">
+                    <div className="flex gap-4 p-2 border-black-900 border border-solid bg-white-A700 rounded-[20px]">
+                        <SelectBox
+                            shape="square"
+                            indicator={<img src="images/img_arrowdown.svg" alt="arrow_down" className="ml=2"/>}
+                            name="allcategories"
+                            placeholder=" All Categories"
+                            options={dropDownOptions}
+                            className=" text-black-900 font-medium ml-2 border-r border-solid border-gray-300 whitespace-nowrap"
+                        />
+                        <p className="flex justify-center items-center !text-gray-400 whitespace-nowrap pr-28">
+                            Search Product,Brands and more...
+                        </p>
+                        <img src="images/img_search.svg" alt="search_one" className="mr-2" />
                     </div>
                 </div>
                 
-                <div className="flex justify-center items-end w-[20%] md:w-full mr-[88px]">
-                    <div className="h-[41px] w-[24%] pb-px px-px relative">
-                    <Img
+                <div className="flex justify-center items-center w-[20%] md:w-full mr-[88px]">
+                    <div className="h-[41px] w-[24%] relative">
+                    <img
                         src="images/img_vector.svg"
                         alt="vector_one"
-                        className="h-[32px] w-[31px] bottom-[9%] left-[4%] m-auto absolute"
+                        className="h-[32px] w-[31px] bottom-[9%] left-[4%] m-auto "
                     />
-                    <div className="flex flex-col items-center w-[41%] right-[10%] top-0 m-auto absolute">
-                        <div className="self-stretch h-[15px] bg-blue-600 rounded-[50%]" />
-                        <Heading size="lg" as="p" className="mt-[-15px]">
+                    <div className="flex flex-col items-center w-[41%] right-[10%] bottom-7 m-auto absolute">
+                        <div className="self-stretch h-[18px] bg-blue-600 rounded-[50%]" />
+                        <Heading size="lg" as="p" className="bottom-0 absolute">
                         5
                         </Heading>
                     </div>
