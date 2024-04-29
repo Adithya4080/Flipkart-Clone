@@ -4,10 +4,10 @@ import { Img, Text, Heading } from "../../components";
 function NavbarBottom() {
     return (
         <div>
-            <div className="pb-[18px] px-[18px] border-black-900_0f border border-solid bg-white-A700">
-                <div className="flex flex-col items-start w-full gap-1.5 mx-auto md:p-5 max-w-[993px]">
-                    <div className="h-[3px] w-[10%] bg-blue-600_01" />
-                    <div className="flex md:flex-col items-center ml-[9px]">
+            <div className="my-4 border-black-900 bg-white-700">
+                <div className="wrapper">
+                    <div className="h-[2px] w-[7%] bg-blue-600" />
+                    <div className="flex items-center gap-7">
                     <div className="flex self-end items-center gap-[7px]">
                         <Img src="images/img_ei_star.svg" alt="image" className="h-[16px] w-[16px]" />
                         <Heading size="s" as="p" className="self-start !text-blue-600_01">
