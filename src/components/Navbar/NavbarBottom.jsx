@@ -1,52 +1,74 @@
 import React from 'react';
-import { Img, Text, Heading } from "../../components";
+import { Img, Text } from "../../components";
+import Grocery from "../../assets/images/food.png"
+import Phone from "../../assets/images/Phone.png";
+import Sofa from "../../assets/images/Sofa.png";
+import Electronics from "../../assets/images/Electronics.png";
+import Beauty from "../../assets/images/Beauty.png"
 
 function NavbarBottom() {
     return (
         <div>
-            <div className="my-4 border-black-900 bg-white-700">
+            <div className="border-t-2 border-gray-200 bg-white-700">
                 <div className="wrapper">
-                    <div className="h-[2px] w-[7%] bg-blue-600" />
-                    <div className="flex items-center gap-7">
-                    <div className="flex self-end items-center gap-[7px]">
-                        <Img src="images/img_ei_star.svg" alt="image" className="h-[16px] w-[16px]" />
-                        <Heading size="s" as="p" className="self-start !text-blue-600_01">
-                        Top Offers
-                        </Heading>
-                    </div>
-                    <a href="#" className="self-end">
-                        <Text size="s" as="p" className="!text-black-900">
-                        Grocery
-                        </Text>
-                    </a>
-                    <a href="#" className="ml-[82px]">
-                        <Text size="s" as="p" className="!text-black-900">
-                        Mobiles
-                        </Text>
-                    </a>
-                    <a href="#" className="ml-[98px]">
-                        <Text size="s" as="p" className="!text-black-900">
-                        Home
-                        </Text>
-                    </a>
-                    <div className="flex items-center ml-[87px]">
-                        <a href="#">
-                        <Text size="s" as="p" className="!text-black-900">
-                            Electronics
-                        </Text>
-                        </a>
-                        <Img src="images/img_shoe.png" alt="shoe_one" className="w-[32px] ml-[29px] object-cover" />
-                        <a href="#" className="ml-4">
-                        <Text size="s" as="p" className="!text-black-900">
-                            Fashion
-                        </Text>
-                        </a>
-                    </div>
-                    <a href="#" className="self-end">
-                        <Text size="s" as="p" className="!text-black-900">
-                        Beauty & Accesories
-                        </Text>
-                    </a>
+                    <div className="h-[2px] w-[8%] bg-blue-600" />
+                    <div className="flex gap-7 pt-4">
+                        <div className="flex self-end items-center gap-[7px]">
+                            <Img src="images/img_ei_star.svg" alt="image" className="h-[16px] w-[16px]" />
+                            <a href="#">
+                                <h3 className="font-bold text-sm text-blue-600">
+                                    Top Offers
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <img src={Grocery} alt="image" className="h-[16px] w-[16px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Grocery
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <img src={Phone} alt="image" className="h-[16px] w-[16px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Mobiles
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <img src={Sofa} alt="image" className="h-[18px] w-[18px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Home
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <img src={Electronics} alt="image" className="h-[18px] w-[18px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Electronics
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <Img src="images/img_shoe.png" alt="shoe_one" className="w-[18px] h-[18px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Fashion
+                                </h3>
+                            </a>
+                        </div>
+                        <div className="flex self-end items-center gap-[7px]">
+                            <img src={Beauty} alt="image" className="h-[18px] w-[18px]" />
+                            <a href="#">
+                                <h3 className="font-medium text-sm text-black-600">
+                                    Beauty & Accessories
+                                </h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
