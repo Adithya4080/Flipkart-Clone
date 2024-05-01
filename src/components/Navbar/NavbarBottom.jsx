@@ -11,7 +11,7 @@ function NavbarBottom() {
             <div className="border-t-2 border-gray-200 bg-white-700">
                 <div className="wrapper">
                     <div className="h-[2px] w-[8%] bg-blue-600" />
-                    <div className="flex gap-7 pt-4">
+                    <div className="flex gap-7 py-4">
                         <div className="flex self-end items-center gap-[7px]">
                         <div className='w-[30px]'>
                             <img src="images/img_ei_star.svg" alt="image" className="w-full" />

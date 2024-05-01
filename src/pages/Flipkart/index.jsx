@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Img, Text, Heading, Input, Button, Slider, SelectBox } from "../../components";
 import NavbarTop from "components/Navbar/NavbarTop";
 import NavbarBottom from "components/Navbar/NavbarBottom";
-
+import Spotlight from "../../components/Screen/Home/Spotlight"
 
 
 export default function FlipkartPage() {
@@ -18,7 +18,9 @@ export default function FlipkartPage() {
       </Helmet>
       <NavbarTop />
       <NavbarBottom />
+      
       <div className="w-full bg-gray-200">
+      <Spotlight />
         <div>
 
           <div className="h-[538px] w-full mt-2.5 mx-auto md:p-5 relative max-w-[1298px]">
