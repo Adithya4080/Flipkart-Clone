@@ -1,6 +1,7 @@
 import React from 'react';
 import iPhone from '../../../assets/images/iPhone.png';
-import TV from '../../../assets/images/TV.png'
+import TV from '../../../assets/images/TV.png';
+import Cycle from '../../../assets/images/Cycle.png';
 
 function Spotlight() {
     return (
@@ -41,8 +42,17 @@ function Spotlight() {
                     </div>
                 </div>
                 <div className="right ml-8 w-7/12">
-                    <div className='bg-[#ffe1e3] pt-10 px-4 pb-1 rounded-lg'>
+                    <div className='bg-[#ffe1e3] pt-10 px-7 pb-1 rounded-lg'>
                         <h3 className='text-3xl font-bold'>Lifelong Tribe 20T</h3>
+                        <p className='py-3 text-sm text-[#6f6f6f]'>Matte Black And  Fluorescent yellow 20 T<br /> Road Cycle (Single Speed, Black)</p>
+                        <div className='flex'>
+                            <p className='text-sm text-[#6f6f6f] mr-2'><del>₹5,000</del> From</p>
+                            <h4 className='font-bold'>₹2,000*</h4>
+                        </div>
+                        <button className='bg-[#ff0000] text-[#ffffff] my-4 px-8 py-1 rounded-xl'>Buy Now</button>
+                        <div className='pl-16'>
+                            <img src={Cycle} alt="Cycle" />
+                        </div>
                     </div>
                 </div>
             </div>
