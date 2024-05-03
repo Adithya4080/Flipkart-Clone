@@ -5,8 +5,8 @@ import TV from '../../../assets/images/TV.png'
 function Spotlight() {
     return (
         <div className='bg-[#f2f0f0] py-2'>
-            <div className='wrapper flex'>
-                <div className='left'>
+            <div className='wrapper flex w-full'>
+                <div className='left w-5/12'>
                     <div className="left-top bg-[#caf2ff] px-2 py-4 rounded-lg flex justify-between mb-2">
                         <div>
                             <button className='bg-[#fcdf5b] py-1 pl-2 pr-6 text-sm text-[#6c602b] font-medium rounded-lg'>50% Discount</button>
@@ -40,9 +40,9 @@ function Spotlight() {
                         </div>
                     </div>
                 </div>
-                <div className="right ml-8">
-                    <div className='bg-[#ffe1e3]'>
-                        <h3>Lifelong Tribe 20T</h3>
+                <div className="right ml-8 w-7/12">
+                    <div className='bg-[#ffe1e3] pt-10 px-4 pb-1 rounded-lg'>
+                        <h3 className='text-3xl font-bold'>Lifelong Tribe 20T</h3>
                     </div>
                 </div>
             </div>
