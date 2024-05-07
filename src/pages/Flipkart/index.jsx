@@ -23,67 +23,7 @@ export default function FlipkartPage() {
       <Spotlight />
         <div>
 
-          <div className="h-[538px] w-full mt-2.5 mx-auto md:p-5 relative max-w-[1298px]">
-            <Slider
-              autoPlay
-              autoPlayInterval={2000}
-              responsive={{ 0: { items: 1 }, 550: { items: 1 }, 1050: { items: 3 } }}
-              renderDotsItem={(props) => {
-                return props?.isActive ? (
-                  <div className="w-[42px] h-[9px] mr-0.5 bg-gray-600 rounded" />
-                ) : (
-                  <div className="w-[11px] h-[9px] mr-0.5 bg-blue_gray-100_01 rounded" />
-                );
-              }}
-              activeIndex={sliderState}
-              onSlideChanged={(e) => {
-                setSliderState(e?.item);
-              }}
-              ref={sliderRef}
-              className="justify-center w-full left-0 bottom-0 right-0 top-0 m-auto absolute"
-              items={[...Array(9)].map(() => (
-                <React.Fragment key={Math.random()}>
-                  <div className="flex p-[29px] mx-2.5 sm:p-5 bg-deep_orange-50_01 rounded-[10px]">
-                    <div className="flex md:flex-col items-start w-[93%] mt-[26px] mb-1">
-                      <div className="flex flex-col items-start flex-1">
-                        <Heading size="7xl" as="h1" className="!text-black-900">
-                          Lifelong Tribe 20T
-                        </Heading>
-                        <Text as="p" className="w-[67%] md:w-full mt-[9px] !text-gray-600">
-                          <>
-                            Matte Black And Fluorescent yellow 20 T<br />
-                            Road Cycle (Single Speed, Black
-                          </>
-                        </Text>
-                        <div className="h-[16px] w-[35%] mt-4 ml-[17px] relative">
-                          <Text
-                            size="md"
-                            as="p"
-                            className="justify-center w-max left-0 bottom-0 right-0 top-0 m-auto !text-gray-600 tracking-[-0.13px] absolute"
-                          >
-                            <span className="text-gray-600">₹</span>
-                            <span className="text-gray-600">5,000</span>
-                            <span className="text-gray-600">&nbsp;</span>
-                            <span className="text-black-900">From</span>
-                            <span className="text-black-900 text-sm font-extrabold">₹2,000*</span>
-                          </Text>
-                          <div className="h-px w-[28%] left-[5%] top-[43%] m-auto rotate-[-180deg] bg-gray-600 absolute" />
-                        </div>
-                        <Text
-                          as="p"
-                          className="flex justify-center items-center h-[22px] mt-[18px] ml-[19px] px-7 py-0.5 sm:px-5 tracking-[-0.14px] bg-red-A700 rounded-[11px]"
-                        >
-                          Buy Now
-                        </Text>
-                        <div className="self-stretch h-[174px] mt-[115px] ml-[226px] bg-red-100 rounded-[50%]" />
-                      </div>
-                      <div className="h-[241px] w-[39%] mt-[77px] bg-red-100 rounded-[131px]" />
-                    </div>
-                  </div>
-                </React.Fragment>
-              ))}
-            />
-          </div>
+          
           <div className="h-[3777px] mt-[21px] overflow-auto relative">
             <div className="justify-center w-full h-full left-0 bottom-0 right-0 top-0 m-auto absolute">
               <div className="w-full mx-auto md:p-5 max-w-[1440px]">
