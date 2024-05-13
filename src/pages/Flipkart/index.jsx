@@ -24,7 +24,7 @@ export default function FlipkartPage() {
         <div>
 
           
-          <div className="h-[3777px] mt-[21px] overflow-auto relative">
+          <div className="h-[3777px] mt-[21px] relative">
             <div className="justify-center w-full h-full left-0 bottom-0 right-0 top-0 m-auto absolute">
               <div className="w-full mx-auto md:p-5 max-w-[1440px]">
                 <div className="h-[3777px] relative">

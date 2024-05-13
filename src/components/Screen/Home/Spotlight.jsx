@@ -50,7 +50,7 @@ function Spotlight() {
                             <h4 className='font-bold'>₹2,000*</h4>
                         </div>
                         <button className='bg-[#ff0000] text-[#ffffff] my-4 px-8 py-1 rounded-xl'>Buy Now</button>
-                        <div className='pl-16'>
+                        <div className='pl-16 pb-9'>
                             <img src={Cycle} alt="Cycle" />
                         </div>
                     </div>
