@@ -4,40 +4,29 @@ import { Img, Text, Heading, Button} from "../../../components";
 function FeaturedProduct() {
     return (
         <div className='bg-white-A700'>
-            <div className='wrapper'>
-                <div className="flex md:flex-col justify-center items-center gap-[34px]">
-                <div className="flex flex-col w-[36%] md:w-full gap-[42px]">
-                    <Heading size="6xl" as="h3" className="ml-5 !text-black-900 tracking-[-0.33px]">
+            <div className='wrapper py-7'>
+                <h3 className="ml-5 pb-10 font-bold text-black-900 text-[24px]">
                     Feature Product
-                    </Heading>
-                    <div className="h-[459px] relative">
-                    <Img
-                        src="images/img_rectangle_44.png"
-                        alt="image_one"
-                        className="justify-center h-[459px] w-full left-0 bottom-0 right-0 top-0 m-auto object-cover absolute rounded-[10px]"
-                    />
-                    <div className="h-[25px] w-[29%] left-[4%] top-[3%] m-auto bg-white-A700 absolute" />
-                    <Heading size="3xl" as="h4" className="left-[5%] top-[3%] m-auto !text-red-A700 absolute">
-                        FURNITURE
-                    </Heading>
-                    <div className="h-[36px] w-[44%] right-[26%] top-[24%] m-auto bg-blue-600 absolute" />
-                    <Heading
-                        size="5xl"
-                        as="h5"
-                        className="w-[76%] left-[4%] top-[13%] m-auto !font-notosansjp absolute"
-                    >
-                        <>
-                        Create your own
-                        <br /> space with Flipkart Furniture
-                        </>
-                    </Heading>
-                    <div className="flex flex-col items-center w-[46%] bottom-[5%] right-0 m-auto absolute">
-                        <div className="self-stretch h-[52px] rounded-bl-[10px] rounded-tl-[10px] bg-red-A700" />
-                        <Heading size="5xl" as="h6" className="mt-[-43px] !font-notosansjp">
-                        From ₹1,200
-                        </Heading>
+                </h3>
+                <div className="relative">
+                    <div className="w-[30%] ">
+                        <img
+                            src="images/img_rectangle_44.png"
+                            alt="Furniture"
+                            className="rounded-[10px] w-full"
+                        />     
                     </div>
+                    <div className='absolute top-0 ml-4'>
+                        <button className='bg-white-A700 text-[#ff0000] uppercase font-semibold p-1 mt-4'>Furniture</button>
+                        <p className='mt-4 text-xl text-white-A700 font-medium'>
+                            Create your Own <br />
+                            space with <button className='bg-[#198ada] pl-1 pr-5 font-bold'>Flipkart</button> <br />
+                            Furniture
+                        </p>
                     </div>
+                    <div className='absolute bottom-10 ml-[270px]'>
+                        <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[18px] font-medium'>From ₹1,200</button>
+                    </div>          
                 </div>
                 <div className="flex flex-col self-end gap-[13px] flex-1">
                     <div className="flex md:flex-col justify-center">
@@ -136,7 +125,6 @@ function FeaturedProduct() {
                         </Heading>
                     </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
