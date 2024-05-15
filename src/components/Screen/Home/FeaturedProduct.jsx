@@ -9,9 +9,9 @@ function FeaturedProduct() {
                 <h3 className="ml-5 pb-10 font-bold text-black-900 text-[24px]">
                     Feature Product
                 </h3>
-                <div className='flex'>
-                    <div className="relative">
-                        <div className="w-[70%] ">
+                <div className='flex w-full gap-8'>
+                    <div className="relative w-[60%]">
+                        <div className="w-full ">
                             <img
                                 src="images/img_rectangle_44.png"
                                 alt="Furniture"
