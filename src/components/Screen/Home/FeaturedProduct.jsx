@@ -11,11 +11,11 @@ function FeaturedProduct() {
                 </h3>
                 <div className='flex w-full gap-8'>
                     <div className="relative w-[60%]">
-                        <div className="w-full ">
+                        <div className="w-full h-[100%]">
                             <img
                                 src="images/img_rectangle_44.png"
                                 alt="Furniture"
-                                className="rounded-[10px] w-full"
+                                className="rounded-[10px] w-full h-full"
                             />     
                         </div>
                         <div className='absolute top-0 ml-4'>
@@ -24,9 +24,11 @@ function FeaturedProduct() {
                                 Create your Own <br />
                                 space with <button className='bg-[#198ada] pl-1 pr-5 font-bold'>Flipkart</button> <br />
                                 Furniture
-                            </p>
-                            <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[18px] font-medium mt-32'>From ₹1,200</button>
-                        </div>          
+                            </p>                            
+                        </div> 
+                        <div className='absolute bottom-20 right-0'>
+                            <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[18px] font-medium'>From ₹1,200</button>
+                        </div>         
                     </div>
                         <div className="flex flex-col">
                             <div className='flex'>
