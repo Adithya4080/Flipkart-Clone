@@ -1,10 +1,11 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Img, Text, Heading, Input, Button, Slider, SelectBox } from "../../components";
+import { Img, Text, Heading, Input } from "../../components";
 import NavbarTop from "components/Navbar/NavbarTop";
 import NavbarBottom from "components/Navbar/NavbarBottom";
 import Spotlight from "../../components/Screen/Home/Spotlight"
 import FeaturedProduct from "components/Screen/Home/FeaturedProduct";
+import Ad from "components/Screen/Home/Ad";
 
 
 export default function FlipkartPage() {
@@ -19,10 +20,9 @@ export default function FlipkartPage() {
       </Helmet>
       <NavbarTop />
       <NavbarBottom />
-      
-      <div className="w-full bg-gray-200">
       <Spotlight />
       <FeaturedProduct />
+      <Ad />
         <div>
 
           
@@ -36,76 +36,7 @@ export default function FlipkartPage() {
                     alt="vector_three"
                     className="h-[31px] w-[31px] right-[6%] top-[37%] m-auto absolute"
                   />
-                  <div className="flex md:flex-col justify-end w-full gap-[26px] top-[35%] right-0 left-0 p-[25px] m-auto sm:p-5 bg-gradient4 absolute">
-                    <div className="mb-[17px] pt-2.5 bg-gradient3 flex-1 rounded-[20px]">
-                      <div className="flex flex-col items-end">
-                        <div className="flex justify-center w-[10%] md:w-full mr-[83px] p-[9px] border-blue-300 border border-solid rounded-[50%]">
-                          <div className="h-[36px] w-full border-blue-300 border border-solid rounded-[18px]" />
-                        </div>
-                        <div className="flex sm:flex-col justify-end items-start w-[86%] md:w-full mt-[13px] mr-[15px]">
-                          <Text size="5xl" as="p" className="flex w-[90%] sm:w-full tracking-[-0.34px]">
-                            <span className="text-white-A700 font-bold">Become a </span>
-                            <span className="text-yellow_A400 font-bold">Plus Member </span>
-                            <span className="text-white-A700 font-bold">
-                              <>
-                                Now & <br />
-                                Enjoy amazing brnefits
-                              </>
-                            </span>
-                          </Text>
-                          <div className="flex justify-center w-[10%] sm:w-full mt-1.5 p-[9px] border-blue-300 border border-solid rounded-[50%]">
-                            <div className="h-[36px] w-full border-blue-300 border border-solid rounded-[18px]" />
-                          </div>
-                        </div>
-                        <Text size="3xl" as="p" className="self-start mt-3.5 tracking-[-0.18px]">
-                          Shop on Flipkart and pay using supercoins
-                        </Text>
-                        <div className="self-stretch h-[256px] mt-6 relative">
-                          <Img
-                            src="images/img_3e8a80bd_a21b_4.png"
-                            alt="3e8a80bda21bfou"
-                            className="justify-center h-[256px] w-full left-0 bottom-0 right-0 top-0 m-auto object-cover absolute"
-                          />
-                          <div className="h-[30px] w-[8%] bottom-[39%] left-[30%] m-auto absolute">
-                            <div className="justify-center h-[30px] w-full left-0 bottom-0 right-0 top-0 m-auto border-blue-300 border border-solid absolute rounded-[18px]" />
-                            <div className="justify-center h-[19px] w-[66%] left-0 bottom-0 right-0 top-0 m-auto border-blue-300 border border-solid absolute rounded-[50%]" />
-                          </div>
-                          <div className="h-[39px] w-[8%] left-[3%] top-1/4 m-auto absolute">
-                            <div className="justify-center h-[39px] w-full left-0 bottom-0 right-0 top-0 m-auto border-blue-300 border border-solid absolute rounded-[50%]" />
-                            <div className="justify-center h-[25px] w-[66%] left-0 bottom-0 right-0 top-0 m-auto border-blue-300 border border-solid absolute rounded-[16px]" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex justify-end w-[47%] md:w-full mr-[49px] py-[5px] bg-gradient2 rounded-[20px]">
-                      <div className="flex flex-col w-full mt-[59px] gap-[22px]">
-                        <Text size="7xl" as="p" className="w-[79%] md:w-full ml-[57px] tracking-[-0.57px]">
-                          <>
-                            Gift Card for <br />
-                            Corporate and <br />
-                            Business needs
-                          </>
-                        </Text>
-                        <div>
-                          <div className="flex flex-col">
-                            <Text size="xl" as="p" className="w-[81%] md:w-full ml-12 tracking-[-0.15px] z-[1]">
-                              <>
-                                Special occasions call for special gifts. Whether it&#39;s a birthday
-                                <br />
-                                or an anniversary, finding the right gift for your loved ones is <br />
-                                always a difficult task.
-                              </>
-                            </Text>
-                            <Img
-                              src="images/img_image_14.png"
-                              alt="imagefourteen"
-                              className="h-[136px] mt-[-10px] object-cover"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div className="flex md:flex-col justify-center items-center w-full bottom-[36%] right-0 left-0 m-auto absolute">
                     <Img
                       src="images/img_image_15.png"
@@ -446,7 +377,6 @@ export default function FlipkartPage() {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 }
