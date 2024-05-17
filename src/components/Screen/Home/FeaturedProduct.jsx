@@ -3,7 +3,9 @@ import Bed from "../../../assets/images/Bed.png";
 import Washing from "../../../assets/images/washing machine.png";
 import Kurta from "../../../assets/images/kurta.png";
 import Shoe from "../../../assets/images/shoe.png";
-import Buds from "../../../assets/images/earpods.png"
+import Buds from "../../../assets/images/earpods.png";
+import Chair from "../../../assets/images/chair.png";
+import Mug from "../../../assets/images/mug.png"
 
 
 function FeaturedProduct() {
@@ -128,8 +130,8 @@ function FeaturedProduct() {
                         <div className='bg-[#e1ffe4] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
-                                <div className='flex justify-center items-center w-[200px]' >
-                                    <img className='w-full' src={Kurta} alt="Kurta" />
+                                <div>
+                                    <img src={Kurta} alt="Kurta" />
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Sponsored</p>
                                 <h5 className='font-medium text-[14px]'>
@@ -144,8 +146,8 @@ function FeaturedProduct() {
                         <div className='bg-[#ffebe0] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>3.7</button>
                             <div className='px-4 pb-4'>
-                                <div className='flex justify-center items-center mt-9 w-[200px]' >
-                                    <img className='w-full' src={Shoe} alt="Shoe" />
+                                <div className='flex justify-center items-center mt-9' >
+                                    <img src={Shoe} alt="Shoe" />
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>BIRDE</p>
                                 <h5 className='font-medium text-[14px]'>
@@ -160,8 +162,8 @@ function FeaturedProduct() {
                         <div className='bg-[#f0f0f0] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
-                                <div className='flex justify-center items-center w-[100px]' >
-                                    <img className='w-full' src={Buds} alt="Earphone" />
+                                <div>
+                                    <img src={Buds} alt="Earphone" />
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Oppo</p>
                                 <h5 className='font-medium text-[14px]'>
@@ -173,34 +175,39 @@ function FeaturedProduct() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹3,999</del> <span className='text-[#1dc31a]'>55%off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#e1ffe4] rounded-md w-20%'>
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-2'>4.2</button>
-                            <div>
-                                <img src={Kurta} alt="Kurta" />
+                        <div className='bg-[#fff1bf] rounded-md'> 
+                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.1</button>
+                            <div className='px-4 pb-4'>
+                                <div>
+                                    <img src={Chair} alt="Chair" />
+                                </div>
+                                <p className='text-[#909290] text-[14px]'>Furniture</p>
+                                <h5 className='font-medium text-[14px]'>
+                                    Nice Furniture Leatherette<br />
+                                    Office Arm Chair (Black, DIY<br />
+                                    (Do-It-Yourself))
+                                </h5>
+                                <h4 className='my-2 font-bold text-[18px]'>₹6,367</h4>
+                                <small className='text-[12px]'><del className='text-[#848a85]'>₹12,000</del> <span className='text-[#1dc31a]'>46%off</span></small>
                             </div>
-                            <p>Sponsored</p>
-                            <h5>
-                                STREE MANTRA Women <br />
-                                Printed Georgette, Crepe <br />
-                                A-line Kurta Grey
-                            </h5>
-                            <h4>₹599</h4>
-                            <small><del>₹1,699</del> <span>65%off</span></small>
                         </div>
-                        <div className='bg-[#e1ffe4] rounded-md w-20%'>
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-2'>4.2</button>
-                            <div>
-                                <img src={Kurta} alt="Kurta" />
+                        <div className='bg-[#ffeced] rounded-md'> 
+                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>5.1</button>
+                            <div className='px-4 pb-4'>
+                                <div>
+                                    <img src={Mug} alt="Mug" />
+                                </div>
+                                <p className='text-[#909290] text-[14px]'>LeaFox</p>
+                                <h5 className='font-medium text-[14px]'>
+                                    Nice Furniture Leatherette<br />
+                                    Office Arm Chair (Black, DIY<br />
+                                    (Do-It-Yourself))
+                                </h5>
+                                <h4 className='my-2 font-bold text-[18px]'>₹499</h4>
+                                <small className='text-[12px]'><del className='text-[#848a85]'>₹1,099</del> <span className='text-[#1dc31a]'>54%off</span></small>
                             </div>
-                            <p>Sponsored</p>
-                            <h5>
-                                STREE MANTRA Women <br />
-                                Printed Georgette, Crepe <br />
-                                A-line Kurta Grey
-                            </h5>
-                            <h4>₹599</h4>
-                            <small><del>₹1,699</del> <span>65%off</span></small>
                         </div>
+                        <p className='flex justify-center items-center text-[#6f6f6f] text-[14px] font-medium cursor-pointer hover:underline'>View More</p>
                     </div>
                 </div>
             </div>
