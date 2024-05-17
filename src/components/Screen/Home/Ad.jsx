@@ -1,6 +1,5 @@
 import React from 'react';
-import { Img, Text } from "../../../components";
-import Background from '../../../assets/images/Rectangle.png'
+import Background from '../../../assets/images/Rectangle.png';
 
 function Ad() {
     return (
@@ -19,8 +18,7 @@ function Ad() {
                             <small className='text-white-A700 mt-4 flex justify-center items-center'>
                                 Shop on Flipkart and pay using supercoins
                             </small>
-                        </div>
-                    
+                        </div>                    
                         <div className="mt-6 relative">
                             <img
                                 src="images/img_3e8a80bd_a21b_4.png"
@@ -38,35 +36,28 @@ function Ad() {
                         </div>
                     </div>
                 </div>
-                    <div className="flex justify-end w-[47%] md:w-full mr-[49px] py-[5px] bg-gradient2 rounded-[20px]">
-                      <div className="flex flex-col w-full mt-[59px] gap-[22px]">
-                        <Text size="7xl" as="p" className="w-[79%] md:w-full ml-[57px] tracking-[-0.57px]">
-                          <>
+                <div className="flex w-[49%] bg-gradient2 rounded-[20px] pb-2">
+                    <div className="w-full mt-10">
+                        <h3 className="text-[40px] ml-[57px] text-white-A700">
                             Gift Card for <br />
                             Corporate and <br />
-                            Business needs
-                          </>
-                        </Text>
-                        <div>
-                          <div className="flex flex-col">
-                            <Text size="xl" as="p" className="w-[81%] md:w-full ml-12 tracking-[-0.15px] z-[1]">
-                              <>
-                                Special occasions call for special gifts. Whether it&#39;s a birthday
-                                <br />
+                            Business needs
+                        </h3>
+                        <div className="flex flex-col">
+                            <p className="ml-12 mt-10 text-white-A700">
+                                Special occasions call for special gifts. Whether its a birthday <br />
                                 or an anniversary, finding the right gift for your loved ones is <br />
-                                always a difficult task.
-                              </>
-                            </Text>
-                            <Img
-                              src="images/img_image_14.png"
-                              alt="imagefourteen"
-                              className="h-[136px] mt-[-10px] object-cover"
+                                always a difficult task.
+                            </p>
+                            <img
+                                src="images/img_image_14.png"
+                                alt="Flipkart Gift Card"
+                                className="object-fit"
                             />
-                          </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
+            </div>
         </div>
     )
 }
