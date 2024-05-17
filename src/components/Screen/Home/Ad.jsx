@@ -49,11 +49,13 @@ function Ad() {
                                 or an anniversary, finding the right gift for your loved ones is <br />
                                 always a difficult task.
                             </p>
-                            <img
-                                src="images/img_image_14.png"
-                                alt="Flipkart Gift Card"
-                                className="object-fit"
-                            />
+                            <div className='w-full object-contain'>
+                                <img
+                                    src="images/img_image_14.png"
+                                    alt="Flipkart Gift Card"
+                                    className="w-full"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

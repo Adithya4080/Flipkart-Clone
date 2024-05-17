@@ -6,6 +6,7 @@ import NavbarBottom from "components/Navbar/NavbarBottom";
 import Spotlight from "../../components/Screen/Home/Spotlight"
 import FeaturedProduct from "components/Screen/Home/FeaturedProduct";
 import Ad from "components/Screen/Home/Ad";
+import Products from "components/Screen/Home/Products";
 
 
 export default function FlipkartPage() {
@@ -23,6 +24,7 @@ export default function FlipkartPage() {
       <Spotlight />
       <FeaturedProduct />
       <Ad />
+      <Products />
         <div>
 
           
@@ -31,11 +33,7 @@ export default function FlipkartPage() {
               <div className="w-full mx-auto md:p-5 max-w-[1440px]">
                 <div className="h-[3777px] relative">
                   <div className="justify-center h-[3777px] w-full left-0 bottom-0 right-0 top-0 m-auto bg-white-A700 absolute" />
-                  <Img
-                    src="images/img_vector_black_900.svg"
-                    alt="vector_three"
-                    className="h-[31px] w-[31px] right-[6%] top-[37%] m-auto absolute"
-                  />
+                
                   
                   <div className="flex md:flex-col justify-center items-center w-full bottom-[36%] right-0 left-0 m-auto absolute">
                     <Img
