@@ -130,15 +130,17 @@ function FeaturedProduct() {
                         <div className='bg-[#e1ffe4] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
-                                <div>
-                                    <img src={Kurta} alt="Kurta" />
+                                <div className='flex justify-center items-center mt-4'>
+                                    <div className='w-[120px] h-[120px]'>
+                                        <img src={Kurta} alt="Kurta" className='w-full h-full' />
+                                    </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Sponsored</p>
-                                <h5 className='font-medium text-[14px]'>
+                                <small className='font-medium text-[14px]'>
                                     STREE MANTRA Women <br />
                                     Printed Georgette, Crepe <br />
                                     A-line Kurta Grey
-                                </h5>
+                                </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹599</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹1,699</del> <span className='text-[#1dc31a]'>65%off</span></small>
                             </div>
@@ -146,15 +148,17 @@ function FeaturedProduct() {
                         <div className='bg-[#ffebe0] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>3.7</button>
                             <div className='px-4 pb-4'>
-                                <div className='flex justify-center items-center mt-9' >
-                                    <img src={Shoe} alt="Shoe" />
+                                <div className='flex justify-center items-center mt-4'>
+                                    <div className='w-[120px] h-[120px]'>
+                                        <img src={Shoe} alt="Shoe" className='w-full h-full' />
+                                    </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>BIRDE</p>
-                                <h5 className='font-medium text-[14px]'>
+                                <small className='font-medium text-[14px]'>
                                     Premium Casual SHoes For <br />
                                     Men Casuals For Men
                                     <br /><br />
-                                </h5>
+                                </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹599</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹499</del> <span className='text-[#1dc31a]'>35%off</span></small>
                             </div>
@@ -162,15 +166,17 @@ function FeaturedProduct() {
                         <div className='bg-[#f0f0f0] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
-                                <div>
-                                    <img src={Buds} alt="Earphone" />
+                                <div className='flex justify-center items-center mt-4'>
+                                    <div className='w-[120px] h-[120px]'>
+                                        <img src={Buds} alt="Earphone" className='w-full h-full' />
+                                    </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Oppo</p>
-                                <h5 className='font-medium text-[14px]'>
+                                <small className='font-medium text-[14px]'>
                                     OPPO Enco Buds 2 with 28 hours <br />
                                     Battery life & Deep Noise
                                     <br /><br />
-                                </h5>
+                                </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹1,799</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹3,999</del> <span className='text-[#1dc31a]'>55%off</span></small>
                             </div>
@@ -178,15 +184,17 @@ function FeaturedProduct() {
                         <div className='bg-[#fff1bf] rounded-md'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.1</button>
                             <div className='px-4 pb-4'>
-                                <div>
-                                    <img src={Chair} alt="Chair" />
+                                <div className='flex justify-center items-center mt-4'>
+                                    <div className='w-[120px] h-[120px]'>
+                                        <img src={Chair} alt="Chair" className='w-full h-full' />
+                                    </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Furniture</p>
-                                <h5 className='font-medium text-[14px]'>
+                                <small className='font-medium text-[14px]'>
                                     Nice Furniture Leatherette<br />
                                     Office Arm Chair (Black, DIY<br />
                                     (Do-It-Yourself))
-                                </h5>
+                                </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹6,367</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹12,000</del> <span className='text-[#1dc31a]'>46%off</span></small>
                             </div>
