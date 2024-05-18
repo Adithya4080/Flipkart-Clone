@@ -126,8 +126,8 @@ function FeaturedProduct() {
                     <h3 className="ml-5 pb-10 font-bold text-black-900 text-[30px]">
                         Last View Products
                     </h3>
-                    <div className='flex gap-4'>
-                        <div className='bg-[#e1ffe4] rounded-md'> 
+                    <div className='flex gap-4 w-full'>
+                        <div className='bg-[#e1ffe4] rounded-md w-[17%]'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
@@ -136,7 +136,7 @@ function FeaturedProduct() {
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Sponsored</p>
-                                <small className='font-medium text-[14px]'>
+                                <small className='font-medium text-[12px]'>
                                     STREE MANTRA Women <br />
                                     Printed Georgette, Crepe <br />
                                     A-line Kurta Grey
@@ -145,7 +145,7 @@ function FeaturedProduct() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹1,699</del> <span className='text-[#1dc31a]'>65%off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#ffebe0] rounded-md'> 
+                        <div className='bg-[#ffebe0] rounded-md w-[17%]'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>3.7</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
@@ -154,7 +154,7 @@ function FeaturedProduct() {
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>BIRDE</p>
-                                <small className='font-medium text-[14px]'>
+                                <small className='font-medium text-[12px]'>
                                     Premium Casual SHoes For <br />
                                     Men Casuals For Men
                                     <br /><br />
@@ -163,7 +163,7 @@ function FeaturedProduct() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹499</del> <span className='text-[#1dc31a]'>35%off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#f0f0f0] rounded-md'> 
+                        <div className='bg-[#f0f0f0] rounded-md w-[17%]'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
@@ -172,16 +172,16 @@ function FeaturedProduct() {
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Oppo</p>
-                                <small className='font-medium text-[14px]'>
-                                    OPPO Enco Buds 2 with 28 hours <br />
-                                    Battery life & Deep Noise
+                                <small className='font-medium text-[12px]'>
+                                    OPPO Enco Buds 2 with 28 <br />
+                                    hours Battery life & Deep Noise
                                     <br /><br />
                                 </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹1,799</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹3,999</del> <span className='text-[#1dc31a]'>55%off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#fff1bf] rounded-md'> 
+                        <div className='bg-[#fff1bf] rounded-md w-[17%]'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.1</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
@@ -190,7 +190,7 @@ function FeaturedProduct() {
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Furniture</p>
-                                <small className='font-medium text-[14px]'>
+                                <small className='font-medium text-[12px]'>
                                     Nice Furniture Leatherette<br />
                                     Office Arm Chair (Black, DIY<br />
                                     (Do-It-Yourself))
@@ -199,18 +199,20 @@ function FeaturedProduct() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹12,000</del> <span className='text-[#1dc31a]'>46%off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#ffeced] rounded-md'> 
+                        <div className='bg-[#ffeced] rounded-md w-[17%]'> 
                             <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>5.1</button>
                             <div className='px-4 pb-4'>
-                                <div>
-                                    <img src={Mug} alt="Mug" />
+                                <div className='flex justify-center items-center mt-4'>
+                                    <div className='w-[120px] h-[120px]'>
+                                        <img src={Mug} alt="Mug" className='w-full h-full' />
+                                    </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>LeaFox</p>
-                                <h5 className='font-medium text-[14px]'>
-                                    Nice Furniture Leatherette<br />
-                                    Office Arm Chair (Black, DIY<br />
-                                    (Do-It-Yourself))
-                                </h5>
+                                <small className='font-medium text-[12px]'>
+                                    LeaFox Vacuum Flask Set Cup &<br />
+                                    Bottle set for Hot & Cold Drink,<br />
+                                    Random Color 500 ml
+                                </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹499</h4>
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹1,099</del> <span className='text-[#1dc31a]'>54%off</span></small>
                             </div>
