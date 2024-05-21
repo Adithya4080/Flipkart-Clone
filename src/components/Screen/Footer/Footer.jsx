@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading } from 'components';
+import { Heading, Text } from 'components';
 
 function Footer() {
     const [sliderState, setSliderState] = React.useState(0);
