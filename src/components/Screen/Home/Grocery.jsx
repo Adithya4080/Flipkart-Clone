@@ -11,11 +11,11 @@ function Grocery() {
                         New Go-to Online <br />
                         Grocery Store
                     </h6>
-                    <p className='text-white-A700 my-3 text-[20px]'>
+                    <p className='text-white-A700 my-3 text-[18px]'>
                         Whether you work from home or office or other <br />
                         workplaes, daily items are a requsite for everybody
                     </p>
-                    <button className=''>
+                    <button className='bg-white-A700 rounded-[40px] py-4 px-6 text-[#04bb00] text-[20px] font-semibold'>
                         UP To 30% Off
                     </button>
                 </div>

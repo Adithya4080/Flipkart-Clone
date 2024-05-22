@@ -5,34 +5,33 @@ function Footer() {
     const [sliderState, setSliderState] = React.useState(0);
     const sliderRef = React.useRef(null);
     return (
+        
+    <footer className=" py-10 bg-gray-900">
         <div className='wrapper'>
-<footer className="flex justify-center items-center p-[52px] md:p-5 bg-gray-900">
-                  <div className="flex justify-center w-[85%] mb-0.5 mr-[85px]">
-                    <div className="flex flex-col items-center justify-center w-full">
-                      <div className="self-stretch">
-                        <div className="flex md:flex-col justify-between items-start gap-5">
-                          <div className="flex md:flex-col justify-center items-start w-[64%] md:w-full">
-                            <div className="flex flex-col w-[27%] md:w-full">
-                              <Heading as="h6">ABOUT</Heading>
-                              <div className="flex flex-col mt-[18px]">
-                                <div className="flex justify-center items-center">
-                                  <div className="flex flex-col items-start">
-                                    <a href="#">
-                                      <Text as="p" className="tracking-[-0.28px]">
-                                        Contact Us
-                                      </Text>
-                                    </a>
-                                    <a href="#" className="mt-1">
-                                      <Text as="p" className="tracking-[-0.28px]">
-                                        About Us
-                                      </Text>
-                                    </a>
-                                    <a href="#" className="mt-[3px]">
-                                      <Text as="p" className="tracking-[-0.28px]">
-                                        Careers
-                                      </Text>
-                                    </a>
-                                    <ul className="flex flex-col items-start gap-20">
+            <div className="flex justify-between">
+                <div className="flex md:flex-col justify-between items-start gap-5">
+                    <div className="flex md:flex-col justify-center items-start w-[64%] md:w-full">
+                        <div className="flex flex-col w-[27%] md:w-full">
+                            <Heading as="h6">ABOUT</Heading>
+                                <div className="flex flex-col mt-[18px]">
+                                    <div className="flex justify-center items-center">
+                                        <div className="flex flex-col items-start">
+                                            <a href="#">
+                                                <Text as="p" className="tracking-[-0.28px]">
+                                                    Contact Us
+                                                </Text>
+                                            </a>
+                                            <a href="#" className="mt-1">
+                                                <Text as="p" className="tracking-[-0.28px]">
+                                                    About Us
+                                                </Text>
+                                            </a>
+                                            <a href="#" className="mt-[3px]">
+                                                <Text as="p" className="tracking-[-0.28px]">
+                                                    Careers
+                                                </Text>
+                                            </a>
+                                            <ul className="flex flex-col items-start gap-20">
                                       <li>
                                         <a href="#">
                                           <Text as="p" className="tracking-[-0.28px]">
@@ -181,7 +180,7 @@ function Footer() {
                             </Text>
                           </div>
                         </div>
-                      </div>
+            </div>
                       <div className="h-px w-[93%] mt-[33px] bg-blue_gray-100" />
                       <div className="flex justify-between items-center w-[50%] md:w-full mt-[9px] gap-5">
                         <div className="flex justify-center items-center w-[39%]">
@@ -202,10 +201,11 @@ function Footer() {
                           © 2007-2022 Flipkart.com
                         </Text>
                       </div>
-                    </div>
-                  </div>
-                </footer>
+                    
+                  
         </div>
+    </footer>
+
     )
 }
 
