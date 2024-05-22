@@ -13,7 +13,7 @@ function NavbarTop() {
     
         <header>
             <div className='wrapper'>
-            <div className="flex justifu-center items-center gap-10 my-3 bg-white-A700 w-full">                
+            <div className="flex justify-center items-center gap-10 my-3 bg-white-A700 w-full">                
                 <div className='w-36'>
                     <Link to = '/'>
                         <img src={Logo} alt='Logo' className='w-full' />

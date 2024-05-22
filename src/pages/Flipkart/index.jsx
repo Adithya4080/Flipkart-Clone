@@ -10,6 +10,7 @@ import Products from "components/Screen/Home/Products";
 import Categories from "components/Screen/Home/Categories";
 import Grocery from "components/Screen/Home/Grocery";
 import Footer from "components/Screen/Footer/Footer";
+import Navbar from "components/Navbar/Navbar";
 
 
 export default function FlipkartPage() {
@@ -23,6 +24,7 @@ export default function FlipkartPage() {
             <meta name="description" content="Web site created using create-react-app" />
         </Helmet>
         <NavbarTop />
+        <Navbar />
         <NavbarBottom />
         <Spotlight />
         <FeaturedProduct />

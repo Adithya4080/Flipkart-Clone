@@ -50,3 +50,8 @@ input:focus {
 .alice-carousel__dots-item {
   cursor: pointer;
 }
+.hover\:underline-blue:hover {
+  text-decoration: underline;
+  text-decoration-color: #3b82f6;
+  text-underline-offset: 4px;
+}

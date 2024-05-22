@@ -7,7 +7,7 @@ function Categories() {
                 Shop By Categories
             </h3>
             <div className="flex w-full gap-[1%]">
-                <div className='bg-[#ffe99d] pt-4 px-4 rounded-lg w-1/4'>
+                <div className='bg-[#ffe99d] pt-4 px-4 rounded-lg w-[24%]'>
                     <h3 className=" !text-black-900 font-bold text-[20px] flex justify-center items-center">
                         Fashion
                     </h3>
@@ -21,7 +21,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#ffc7ca] pt-4 px-4 rounded-lg w-1/4'>
+                <div className='bg-[#ffc7ca] pt-4 px-4 rounded-lg w-[24%]'>
                     <h3 className=" !text-black-900 font-bold text-[20px] flex justify-center items-center">
                         Beauty & <br /> Accessories
                     </h3>
@@ -35,7 +35,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#d1e4ff] pt-4 px-4 rounded-lg w-1/4'>
+                <div className='bg-[#d1e4ff] pt-4 px-4 rounded-lg w-[24%]'>
                     <h3 className=" !text-black-900 font-bold text-[20px] flex justify-center items-center">
                         Electronics
                     </h3>
@@ -49,7 +49,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#cbffd0] pt-4 px-4 rounded-lg w-1/4'>
+                <div className='bg-[#cbffd0] pt-4 px-4 rounded-lg w-[24%]'>
                     <h3 className=" !text-black-900 font-bold text-[20px] flex justify-center items-center">
                         Grocery
                     </h3>
