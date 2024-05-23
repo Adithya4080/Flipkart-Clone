@@ -40,8 +40,9 @@ function Navbar() {
                         <img src="images/img_search.svg" alt="search_one" className="mr-2" />
                     </div>
                 </div>
-                <div className='flex gap-3'>
-                    <div className='flex gap-5'>
+                {/* <div className='max-[1280px]:hidden'> */}
+                <div className='hidden gap-3 lg:flex'>
+                    <div className='flex gap-5 '>
                         <div className='relative'>
                             <div className='h-[32px] w-[32px]'>
                                 <img
@@ -74,7 +75,9 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
+                {/* </div> */}
             </div>
+            
         </header>
     )
 }
