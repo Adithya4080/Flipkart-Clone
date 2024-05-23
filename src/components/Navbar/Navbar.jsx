@@ -12,7 +12,7 @@ function Navbar() {
     ];
     return (
         <header>
-            <div className='wrapper flex justify-between items-center py-2'>
+            <div className='wrapper flex gap-12 items-center py-2'>
                 <div className='w-36'>
                     <Link to = '/'>
                         <img src={Logo} alt='Logo' className='w-full' />
@@ -51,7 +51,7 @@ function Navbar() {
                                 />
                             </div>
                             <div className='absolute bottom-5 left-4'>
-                                <p className='bg-blue-500 text-white-A700 rounded-[30px] flex justify-center items-center py-1 px-2 font-bold'>5</p>
+                                <p className='bg-[#198ada] text-white-A700 rounded-[30px] flex justify-center items-center py-1 px-2 font-bold'>5</p>
                             </div>
                         </div>
                         <div className='flex flex-col'>
@@ -60,8 +60,18 @@ function Navbar() {
                         </div>
                     </div>
                     <div className="h-[29px] w-[2px] bg-blue_gray-100_01" />
-                    <div>
-                        
+                    <div className='flex'>
+                        <div className='h-[29px] w-[37px]'>
+                            <img 
+                                src="images/img_mi_user_add.svg" 
+                                alt="miuseradd_one" 
+                                className="h-full w-full" 
+                            />
+                        </div>
+                        <div className='flex flex-col'>
+                            <small>Account</small>
+                            <small>Sign In</small>
+                        </div>
                     </div>
                 </div>
             </div>
