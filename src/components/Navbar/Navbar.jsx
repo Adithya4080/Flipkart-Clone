@@ -13,12 +13,12 @@ function Navbar() {
     return (
         <header>
             <div className='wrapper flex justify-between items-center py-2'>
-                <div className='w-36'>
-                    <h1><a href="">
-                    <Link to = '/'>
-                        <img src={Logo} alt='Logo' className='w-full' />
-                    </Link>
-                    </a></h1>
+                <div>
+                    <h1 className='w-[100%]'>
+                        <Link to = '/'>
+                            <img src={Logo} alt='Logo' className='w-full' />
+                        </Link>
+                    </h1>
                 </div>
                 <div className='flex items-center gap-1'>
                     <FaBars />
@@ -26,7 +26,7 @@ function Navbar() {
                         Menu
                     </p>
                 </div>
-                <div className="md:flex hidden justify-center items-center">
+                <div className="lg:flex hidden justify-center items-center">
                     <div className="flex gap-4 py-2 px-4 border-black-900 border border-solid bg-white-A700 rounded-[20px]">
                         <SelectBox
                             shape="square"

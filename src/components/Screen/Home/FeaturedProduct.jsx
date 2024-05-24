@@ -85,7 +85,7 @@ function FeaturedProduct() {
                                 </div>
                             </div>
                         
-                            <div className="flex sm:flex-col justify-center gap-3 ">
+                            <div className="flex flex-wrap justify-center gap-3 ">
                             <div className="flex flex-col  w-[32%] bg-[#d3ffd8] rounded-[10px] relative">
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-left text-[12px] mt-2 mr-2 absolute right-0'>
                                     ₹2,900

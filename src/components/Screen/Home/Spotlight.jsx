@@ -6,8 +6,8 @@ import Cycle from '../../../assets/images/Cycle.png';
 function Spotlight() {
     return (
         <div className='bg-[#f2f0f0] py-2'>
-            <div className='wrapper flex w-full'>
-                <div className='left w-5/12'>
+            <div className='wrapper md:flex  w-full'>
+                <div className='left w-full flex-col md:flex md:w-5/12'>
                     <div className="left-top bg-[#caf2ff] px-2 py-4 rounded-lg flex justify-between mb-2">
                         <div>
                             <button className='bg-[#fcdf5b] py-1 pl-2 pr-6 text-sm text-[#6c602b] font-medium rounded-lg'>50% Discount</button>
