@@ -6,7 +6,7 @@ import Cycle from '../../../assets/images/Cycle.png';
 function Spotlight() {
     return (
         <div className='bg-[#f2f0f0] py-2'>
-            <div className='wrapper md:flex  w-full'>
+            <div className='wrapper md:flex  w-full space-y-2 md:space-y-0'>
                 <div className='left w-full flex-col md:flex md:w-5/12'>
                     <div className="left-top bg-[#caf2ff] px-2 py-4 rounded-lg flex justify-between mb-2">
                         <div>
@@ -41,7 +41,7 @@ function Spotlight() {
                         </div>
                     </div>
                 </div>
-                <div className="right ml-8 w-7/12">
+                <div className="right md:ml-8 w-full md:w-7/12">
                     <div className='bg-[#ffe1e3] pt-10 px-7 pb-1 rounded-lg'>
                         <h3 className='text-3xl font-bold'>Lifelong Tribe 20T</h3>
                         <p className='py-3 text-sm text-[#6f6f6f]'>Matte Black And  Fluorescent yellow 20 T<br /> Road Cycle (Single Speed, Black)</p>
