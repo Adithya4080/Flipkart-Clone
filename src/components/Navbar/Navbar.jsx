@@ -12,11 +12,13 @@ function Navbar() {
     ];
     return (
         <header>
-            <div className='wrapper flex gap-12 items-center py-2'>
+            <div className='wrapper flex justify-between items-center py-2'>
                 <div className='w-36'>
+                    <h1><a href="">
                     <Link to = '/'>
                         <img src={Logo} alt='Logo' className='w-full' />
                     </Link>
+                    </a></h1>
                 </div>
                 <div className='flex items-center gap-1'>
                     <FaBars />
@@ -24,8 +26,8 @@ function Navbar() {
                         Menu
                     </p>
                 </div>
-                <div className="flex justify-center items-center">
-                    <div className="flex gap-4 p-2 border-black-900 border border-solid bg-white-A700 rounded-[20px]">
+                <div className="md:flex hidden justify-center items-center">
+                    <div className="flex gap-4 py-2 px-4 border-black-900 border border-solid bg-white-A700 rounded-[20px]">
                         <SelectBox
                             shape="square"
                             indicator={<img src="images/img_arrowdown.svg" alt="arrow_down" className="ml=2"/>}
@@ -40,7 +42,6 @@ function Navbar() {
                         <img src="images/img_search.svg" alt="search_one" className="mr-2" />
                     </div>
                 </div>
-                {/* <div className='max-[1280px]:hidden'> */}
                 <div className='hidden gap-3 lg:flex'>
                     <div className='flex gap-5 '>
                         <div className='relative'>
@@ -52,7 +53,7 @@ function Navbar() {
                                 />
                             </div>
                             <div className='absolute bottom-5 left-4'>
-                                <p className='bg-[#198ada] text-white-A700 rounded-[30px] flex justify-center items-center py-1 px-2 font-bold'>5</p>
+                                <p className='bg-[#198ada] text-white-A700 rounded-[30px] flex justify-center items-center px-2 font-bold'>5</p>
                             </div>
                         </div>
                         <div className='flex flex-col'>
@@ -75,7 +76,6 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
-                {/* </div> */}
             </div>
             
         </header>
