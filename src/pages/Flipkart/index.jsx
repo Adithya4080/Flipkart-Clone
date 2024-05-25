@@ -23,11 +23,10 @@ export default function FlipkartPage() {
             <title>Flipkart</title>
             <meta name="description" content="Web site created using create-react-app" />
         </Helmet>
-        {/* <NavbarTop /> */}
         <Navbar />
-        <NavbarBottom />
+        {/* <NavbarBottom /> */}
         <Spotlight />
-        <FeaturedProduct />
+        {/* <FeaturedProduct /> */}
         <Ad />
         <Categories />
         <Products />

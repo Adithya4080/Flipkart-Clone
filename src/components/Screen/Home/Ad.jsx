@@ -4,13 +4,10 @@ import Background from '../../../assets/images/Rectangle.png';
 function Ad() {
     return (
         <div style={{ backgroundImage: `url(${Background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="wrapper flex gap-4 pt-4 pb-6 w-full">
-                <div className="pt-2 bg-gradient3 w-[49%] rounded-[20px]">
+            <div className="wrapper flex flex-wrap gap-4 pt-4 pb-6 w-full">
+                <div className="pt-2 bg-gradient3 md:w-[49%] w-full  rounded-[20px]">
                     <div className="flex flex-col">
-                        <div>
-                            <div className="flex justify-center items-center ml-[80%] w-[10%] sm:w-full mt-1 p-[9px] border-blue-300 border border-solid rounded-[50%]">
-                                <div className="h-[36px] w-full border-blue-300 border border-solid rounded-[18px]" />
-                            </div>
+                        <div className='mt-10'>
                             <p className='flex justify-center items-center font-bold text-2xl'>
                                 <span className="text-white-A700 ">Become a 
                                 <span className="text-yellow_A400"> Plus Member </span> Now & <br />Enjoy amazing benefits</span>
@@ -36,7 +33,7 @@ function Ad() {
                         </div>
                     </div>
                 </div>
-                <div className="flex w-[49%] bg-gradient2 rounded-[20px] pb-2">
+                <div className="flex md:w-[49%] w-full bg-gradient2 rounded-[20px] pb-2">
                     <div className="w-full mt-10">
                         <h3 className="text-[40px] ml-[57px] text-white-A700">
                             Gift Card for <br />

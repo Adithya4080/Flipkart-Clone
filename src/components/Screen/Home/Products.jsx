@@ -16,7 +16,7 @@ function Products() {
         <div className='bg-white-A700'>
             <div className='wrapper'>
                 <div className='mt-10'>
-                    <h3 className="pb-10 font-bold text-black-900 text-[30px]">
+                    <h3 className="pb-5 font-bold text-black-900 text-[30px]">
                         Winter Essentials
                     </h3>
                     <div className='flex gap-4 w-full'>
@@ -114,8 +114,8 @@ function Products() {
                         </div>                        
                     </div>
                 </div>
-                <div className='mt-10 whitespace-nowrap'>
-                    <h3 className="pb-10 font-bold text-black-900 text-[30px]">
+                <div className='mt-5 whitespace-nowrap'>
+                    <h3 className="pb-5 font-bold text-black-900 text-[30px]">
                         Flipkart Recommendation
                     </h3>
                     <div className='flex gap-4 w-full'>
