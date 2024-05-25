@@ -7,7 +7,7 @@ function Categories() {
                 Shop By Categories
             </h3>
             <div className="flex flex-wrap justify-between w-full">
-                <div className='bg-[#ffe99d] pt-4 px-4 rounded-lg w-[24%] mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
+                <div className='bg-[#ffe99d] pt-4 px-4 rounded-lg w-full mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
                     <h3 className="text-black font-bold text-lg flex justify-center items-center mb-2">
                         Fashion
                     </h3>
@@ -21,7 +21,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#ffc7ca] pt-4 px-4 rounded-lg w-[24%] mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
+                <div className='bg-[#ffc7ca] pt-4 px-4 rounded-lg w-full mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
                     <h3 className="text-black font-bold text-lg flex justify-center items-center mb-2">
                         Beauty & <br /> Accessories
                     </h3>
@@ -35,7 +35,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#d1e4ff] pt-4 px-4 rounded-lg w-[24%] mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
+                <div className='bg-[#d1e4ff] pt-4 px-4 rounded-lg w-full mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
                     <h3 className="text-black font-bold text-lg flex justify-center items-center mb-2">
                         Electronics
                     </h3>
@@ -49,7 +49,7 @@ function Categories() {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#cbffd0] pt-4 px-4 rounded-lg w-[24%] mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
+                <div className='bg-[#cbffd0] pt-4 px-4 rounded-lg w-full mb-4 md:w-[48%] lg:w-[24%] sm:w-[100%]'>
                     <h3 className="text-black font-bold text-lg flex justify-center items-center mb-2">
                         Grocery
                     </h3>
