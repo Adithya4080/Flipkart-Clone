@@ -19,13 +19,13 @@ function Products() {
                     <h3 className="pb-5 font-bold text-black-900 text-[30px]">
                         Winter Essentials
                     </h3>
-                    <div className='flex gap-4 w-full'>
-                        <div className='bg-[#f3ecd6] rounded-md w-[17%]'> 
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
+                    <div className='flex flex-wrap gap-4 w-full'>
+                        <div className='bg-[#f3ecd6] rounded-md w-full sm:w-[48%] md:w-[30%] lg:w-[16%]'> 
+                            <button className='bg-[#04bb00] text-white py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
                                     <div className='w-[90px] h-[100px]'>
-                                        <img src={Jacket} alt="Jacket" className='w-full h-full' />
+                                        <img src={Jacket} alt="Jacket" className='w-full h-full object-cover' />
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Roadster</p>
@@ -37,12 +37,12 @@ function Products() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹3,999</del> <span className='text-[#1dc31a]'>72% off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#ffeee2] rounded-md w-[17%]'> 
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>3.1</button>
+                        <div className='bg-[#ffeee2] rounded-md w-full sm:w-[48%] md:w-[30%] lg:w-[16%]'> 
+                            <button className='bg-[#04bb00] text-white py-1 pl-3 pr-6 rounded-xl ml-3'>3.1</button>
                             <div className='px-4 pb-4'>
-                                <div className='flex justify-center items-center mt-4' >
+                                <div className='flex justify-center items-center mt-4'>
                                     <div className='w-[90px] h-[100px]'>
-                                        <img src={Beanie} alt="Beanie" className='w-full h-full' />
+                                        <img src={Beanie} alt="Beanie" className='w-full h-full object-cover' />
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>PinKit</p>
@@ -54,12 +54,12 @@ function Products() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹499</del> <span className='text-[#1dc31a]'>46% off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#f0f0f0] rounded-md w-[17%]'> 
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
+                        <div className='bg-[#f0f0f0] rounded-md w-full sm:w-[48%] md:w-[30%] lg:w-[16%]'> 
+                            <button className='bg-[#04bb00] text-white py-1 pl-3 pr-6 rounded-xl ml-3'>4.2</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
                                     <div className='w-[90px] h-[100px]'>
-                                        <img src={Boot} alt="Boot" className='w-full h-full'  />
+                                        <img src={Boot} alt="Boot" className='w-full h-full object-cover' />
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Big Fox</p>
@@ -72,34 +72,34 @@ function Products() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹2,245</del> <span className='text-[#1dc31a]'>65% off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#fff8de] rounded-md w-17%]'> 
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>4.1</button>
+                        <div className='bg-[#fff8de] rounded-md w-full sm:w-[48%] md:w-[30%] lg:w-[16%]'> 
+                            <button className='bg-[#04bb00] text-white py-1 pl-3 pr-6 rounded-xl ml-3'>4.1</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
                                     <div className='w-[90px] h-[100px]'>
-                                        <img src={Heater} alt="Heater" className='w-full h-full' />
+                                        <img src={Heater} alt="Heater" className='w-full h-full object-cover' />
                                     </div>                                    
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>Heater</p>
-                                <small className='font-medium text-[12px]'>
-                                    HILTON ?HQ-1-800 | ISI Certified<br />
-                                    Multi Mode | Grey Quartz<br />
-                                    Room Heater
+                                <small className='font-medium text-[12px] whitespace-nowrap'>
+                                    HILTON ?HQ-1-800 | ISI <br />
+                                    Certified Multi Mode | Grey <br />
+                                    Quartz Room Heater
                                 </small>
                                 <h4 className='my-2 font-bold text-[18px]'>₹1,200</h4>
-                                <small className='text-[12px]'><del className='text-[#848a85]'>₹1,899</del> <span className='text-[#1dc31a]'>36%off</span></small>
+                                <small className='text-[12px]'><del className='text-[#848a85]'>₹1,899</del> <span className='text-[#1dc31a]'>36% off</span></small>
                             </div>
                         </div>
-                        <div className='bg-[#e9e9ea] rounded-md w-[17%]'> 
-                            <button className='bg-[#04bb00] text-white-A700 py-1 pl-3 pr-6 rounded-xl ml-3'>5.1</button>
+                        <div className='bg-[#e9e9ea] rounded-md w-full sm:w-[48%] md:w-[30%] lg:w-[16%]'> 
+                            <button className='bg-[#04bb00] text-white py-1 pl-3 pr-6 rounded-xl ml-3'>5.1</button>
                             <div className='px-4 pb-4'>
                                 <div className='flex justify-center items-center mt-4'>
                                     <div className='w-[90px] h-[100px]'>
-                                        <img src={Blanket} alt="Blanket" className='w-full h-full' />
+                                        <img src={Blanket} alt="Blanket" className='w-full h-full object-cover' />
                                     </div>
                                 </div>
                                 <p className='text-[#909290] text-[14px]'>kamble</p>
-                                <small className='font-medium text-[12px]'>
+                                <small className='font-medium text-[12px] whitespace-nowrap'>
                                     MAGICAL Floral Double Mink<br />
                                     Blanket for Heavy Winter <br />
                                     (Microfiber, Brown)
@@ -108,8 +108,8 @@ function Products() {
                                 <small className='text-[12px]'><del className='text-[#848a85]'>₹1,999</del> <span className='text-[#1dc31a]'>76% off</span></small>
                             </div>
                         </div>
-                        <div className='flex flex-col justify-center items-center'>
-                            <p className=' text-[#6f6f6f] text-[14px] font-medium cursor-pointer hover:underline'>View More</p>
+                        <div className='flex flex-col justify-center items-center w-full sm:w-[48%] md:w-[30%] lg:w-[10%]'>
+                            <p className='text-[#6f6f6f] text-[14px] font-medium cursor-pointer hover:underline'>View More</p>
                             <FaArrowRightLong className='text-[40px]' />
                         </div>                        
                     </div>
