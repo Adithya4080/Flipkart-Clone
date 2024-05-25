@@ -26,7 +26,7 @@ export default function FlipkartPage() {
         <Navbar />
         {/* <NavbarBottom /> */}
         <Spotlight />
-        {/* <FeaturedProduct /> */}
+        <FeaturedProduct />
         <Ad />
         <Categories />
         <Products />
