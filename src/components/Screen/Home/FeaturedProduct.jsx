@@ -241,16 +241,16 @@ function FeaturedProduct() {
     return (
         <div className='bg-white-A700'>
             <div className='wrapper py-7'>
-                <h3 className="ml-5 pb-10 font-bold text-black-900 text-[24px]">
+                <h3 className="ml-5 pb-5 font-bold text-black-900 text-[24px]">
                     Feature Product
                 </h3>
                 <div className='flex flex-wrap w-full gap-8'>
-                    <div className="relative w-full md:w-[40%]">
-                        <div className="w-full">
+                    <div className="relative w-full md:w-[40%] ">
+                        <div className="w-full ">
                             <img
                                 src="images/img_rectangle_44.png"
                                 alt="Furniture"
-                                className="rounded-[10px] w-full h-full"
+                                className="rounded-[10px] w-full "
                             />     
                         </div>
                         <div className='absolute top-0 ml-4'>
@@ -265,8 +265,8 @@ function FeaturedProduct() {
                             <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[18px] font-medium'>From ₹1,200</button>
                         </div>         
                     </div>
-                    <div className="flex flex-col w-full md:w-[40%]">
-                        <div className='flex flex-wrap gap-4 mb-6'>
+                    <div className="flex flex-col w-full md:w-[55%]">
+                        <div className='flex flex-wrap mb-6 gap-[2%] space-y-2 md:space-y-0'>
                             <div className="bg-[#fcf8cc] rounded-[10px] relative w-[100%] md:w-[32%]">    
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-[12px] mt-2 mr-2 absolute right-0'>
                                     ₹23,000
@@ -282,7 +282,7 @@ function FeaturedProduct() {
                                     NIKON DSLR Camera
                                 </h4>
                             </div>
-                            <div className="bg-[#dbf6ff] rounded-[10px] relative w-[100%] md:w-[30%] pb-4">    
+                            <div className="bg-[#dbf6ff] rounded-[10px] relative w-[100%] md:w-[32%] pb-4">    
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-left text-[12px] my-2 mr-2 absolute right-0'>
                                     ₹1,200
                                 </button>
@@ -297,7 +297,7 @@ function FeaturedProduct() {
                                     NIKON DSLR Camera
                                 </h4>
                             </div>
-                            <div className="bg-[#ffe7e8] rounded-[10px] relative w-[100%] md:w-[30%]">    
+                            <div className="bg-[#ffe7e8] rounded-[10px] relative w-[100%] md:w-[32%]">    
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-left text-[12px] mt-2 mr-2 absolute right-0'>
                                     ₹25,000
                                 </button>
@@ -314,7 +314,7 @@ function FeaturedProduct() {
                             </div>
                         </div>
                         <div className="flex flex-wrap justify-center gap-3">
-                            <div className="flex flex-col w-[100%] md:w-[32%] bg-[#d3ffd8] rounded-[10px] relative">
+                            <div className="flex flex-col w-[100%] md:w-[30%] bg-[#d3ffd8] rounded-[10px] relative">
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-left text-[12px] mt-2 mr-2 absolute right-0'>
                                     ₹2,900
                                 </button>
@@ -329,9 +329,9 @@ function FeaturedProduct() {
                                     Cooker Aluminium
                                 </h4>
                             </div>
-                            <div className="flex w-full md:w-[65%] bg-[#ddebff] rounded-[10px] pt-2 pr-2 pl-3 gap-10">
-                                <div className='flex flex-col w-[30%]'>
-                                    <h3 className="mt-[23px] mb-2 text-black-900 font-medium text-[18px]">
+                            <div className="flex justify-between w-full md:w-[68%] bg-[#ddebff] rounded-[10px] pt-2 pl-3">
+                                <div className='flex flex-col w-[40%]'>
+                                    <h3 className="mt-[23px] mb-2 text-black-900 font-medium text-[18px] whitespace-nowrap">
                                         Samsung Washing Machine
                                     </h3>
                                     <small className="mb-6 text-[#6f6f6f] text-[14px] whitespace-nowrap">
@@ -345,7 +345,7 @@ function FeaturedProduct() {
                                         <button className='bg-[#474748] text-white-A700 py-1 px-6 rounded-[40px] ml-4 text-[14px] font-medium'>₹25,000</button>
                                     </div>
                                 </div>
-                                <div className='w-[50%] flex justify-center items-center'>
+                                <div className='w-[40%] flex justify-center items-center mr-2'>
                                     <img src={Washing} alt="Washing Machine" className='w-full' />
                                 </div>
                             </div>

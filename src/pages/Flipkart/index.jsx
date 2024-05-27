@@ -1,8 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Img, Text, Heading, Input } from "../../components";
-import NavbarTop from "components/Navbar/NavbarTop";
-import NavbarBottom from "components/Navbar/NavbarBottom";
 import Spotlight from "../../components/Screen/Home/Spotlight"
 import FeaturedProduct from "components/Screen/Home/FeaturedProduct";
 import Ad from "components/Screen/Home/Ad";
@@ -24,7 +21,6 @@ export default function FlipkartPage() {
             <meta name="description" content="Web site created using create-react-app" />
         </Helmet>
         <Navbar />
-        {/* <NavbarBottom /> */}
         <Spotlight />
         <FeaturedProduct />
         <Ad />
