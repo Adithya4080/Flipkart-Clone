@@ -207,7 +207,7 @@ function Navbar() {
                         </Link>
                     </h1>
                 </div>
-                <div className='flex items-center gap-1' onClick={handleMenuToggle}>
+                <div className='flex items-center gap-2 cursor-pointer' onClick={handleMenuToggle}>
                     <FaBars />
                     <p className='font-medium text-[18px]'>Menu</p>
                 </div>
@@ -268,7 +268,7 @@ function Navbar() {
                     <div className="flex flex-col lg:flex-row gap-7 py-4">
                         {navItems.map((item, index) => (
                             <div key={index} className="flex self-end items-center gap-[7px]">
-                                <div className='w-[30px]'>
+                                <div className='w-[24px]'>
                                     <img src={item.imgSrc} alt={item.label} className="w-full" />
                                 </div>
                                 <Link to={item.to}>
