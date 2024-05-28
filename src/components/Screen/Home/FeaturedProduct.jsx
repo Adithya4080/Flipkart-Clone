@@ -245,7 +245,7 @@ function FeaturedProduct() {
                     Feature Product
                 </h3>
                 <div className='flex flex-wrap w-full gap-8'>
-                    <div className="relative w-full md:w-[35%] h-[440px]">
+                    <div className="relative w-full md:w-[35%] h-[445px]">
                         <div className="w-full h-full">
                             <img
                                 src="images/img_rectangle_44.png"
