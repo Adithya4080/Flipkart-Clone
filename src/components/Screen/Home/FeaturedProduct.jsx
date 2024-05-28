@@ -245,27 +245,29 @@ function FeaturedProduct() {
                     Feature Product
                 </h3>
                 <div className='flex flex-wrap w-full gap-8'>
-                    <div className="relative w-full md:w-[40%] ">
-                        <div className="w-full ">
+                    <div className="relative w-full md:w-[35%] h-[440px]">
+                        <div className="w-full h-full">
                             <img
                                 src="images/img_rectangle_44.png"
                                 alt="Furniture"
-                                className="rounded-[10px] w-full "
+                                className="rounded-[10px] w-full h-full"
                             />     
                         </div>
                         <div className='absolute top-0 ml-4'>
                             <button className='bg-white-A700 text-[#ff0000] uppercase font-semibold p-1 mt-4'>Furniture</button>
-                            <p className='mt-4 text-xl text-white-A700 font-medium'>
+                            <p className='mt-4 text-2xl text-white-A700 font-medium leading-9'>
                                 Create your Own <br />
                                 space with <button className='bg-[#198ada] pl-1 pr-5 font-bold'>Flipkart</button> <br />
                                 Furniture
                             </p>                            
                         </div> 
-                        <div className='absolute bottom-20 right-0'>
-                            <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[18px] font-medium'>From ₹1,200</button>
+                        <div className='absolute bottom-10 right-0'>
+                            <button className='bg-[#ff0000] text-white-A700 pt-2 pb-1 px-1 rounded-md text-[24px] font-medium pl-2'>
+                                From ₹1,200
+                            </button>
                         </div>         
                     </div>
-                    <div className="flex flex-col w-full md:w-[55%]">
+                    <div className="flex flex-col w-full md:w-[60%]">
                         <div className='flex flex-wrap mb-6 gap-[2%] space-y-2 md:space-y-0'>
                             <div className="bg-[#fcf8cc] rounded-[10px] relative w-[100%] md:w-[32%]">    
                                 <button className='bg-[#474748] text-white-A700 py-1 px-4 rounded-xl text-[12px] mt-2 mr-2 absolute right-0'>
